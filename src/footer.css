@@ -1,0 +1,26 @@
+/* footer area */
+.footer-area{
+    height:auto;
+    text-align:center;
+    background-color:black;
+    padding:40px 0;
+    margin-top:30px;
+}
+.footer-area * {
+    color:white;
+}
+.footer-area > .footer-sns > .sns-item{
+    display:inline-block;
+    padding:20px;
+    cursor:pointer;
+}
+.footer-area > .footer-sns > .sns-item > i{
+    font-size:30px;
+}
+.footer-area > .footer-sns > .sns-item > i:hover{
+    color:indianred;
+}
+.footer-area > .footer-info > p {
+    font-size:16px;
+    padding:20px 0;
+}

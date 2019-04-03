@@ -1,0 +1,83 @@
+/* skills-area */
+.skills-area *{
+    font-size:24px;
+    text-align:center;
+}
+.skills-area{
+    margin:0 auto;
+    height:auto;
+    background-color:whitesmoke;
+    padding:20px 0;
+}
+/* skills-title */
+.skills-title{
+    font-size:45px;
+    font-weight:bold;
+}
+.skills-title::after{
+    content:"";
+    display:block;
+    width:100px;
+    height:10px;
+    margin:0 auto 40px;
+    background-image:linear-gradient(to right,palevioletred,navajowhite);
+}
+/* skills-images */
+.skills-images {
+    font-weight:600;
+}
+.skills-images div:nth-child(1){
+    margin:10px 0;
+}
+/* skills-images > skills-image*/
+.skills-images > .skills-image {
+    width:120px;
+    height:120px;
+    margin:10px;
+    box-shadow:0px 5px 10px rgba(0,0,0,0.3);
+    border-radius:30px;
+    /*padding:5px;*/
+    background-color:white;
+    display:inline-block;
+    background-size:cover;
+    position:relative;
+}
+.skills-images .skills-image:nth-child(odd){
+    animation:imgMoveOdd;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+.skills-images .skills-image:nth-child(even){
+    animation:imgMoveEven;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+@keyframes imgMoveOdd{
+    0%{ transform:translateY(0)}
+    50%{ transform:translateY(20px)}
+    100%{ transform:translateY(0px)}
+}
+@keyframes imgMoveEven{
+    0%{ transform:translateY(20px)}
+    50%{ transform:translateY(0)}
+    100%{ transform:translateY(20px)}
+}
+.skills-image .visit{
+    font-size:15px;
+    color:white;
+    width:120px;
+    height:120px;
+    position:absolute;
+    line-height:120px;
+    border-radius:30px;
+    visibility:hidden;
+    top:-10px;
+    background-color:#000;
+    opacity:0;
+    transition:opacity .8s ease;
+}
+.skills-image:hover .visit{
+    visibility:visible;
+    opacity:.8;
+}
+

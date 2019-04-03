@@ -1,0 +1,75 @@
+/* container-area */
+.container-area{
+    max-width:1000px;
+    margin:0 auto;
+}
+/* container-sub-area */
+.container-sub-area{
+    hieght:auto;
+}
+/* container */
+.container-sub-area > .container{
+    position:relative;
+    height:100%;
+}
+.container-sub-area > .container > .image-slide{
+    height:100%;
+}
+.container-sub-area > .container > .fade{
+    animation-name:fade;
+    animation-duration:1.5s;
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+}
+@keyframes fade {
+    from { opacity: 0.4 }
+    to { opacity:1}
+}
+@-webkit-keyframes fade {
+    from { opacity: 0.4 }
+    to { opacity:1}
+}
+/* container btn */
+.container-sub-area > .container > .image-prev,
+.container-sub-area > .container > .image-next{
+    cursor : pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    padding:16px;
+    margin-top:-22px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-eslect:none;
+}
+.container-sub-area > .container > .image-next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+.container-sub-area > .container > .image-prev:hover,
+.container-sub-area > .container > .image-next:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+/* container dot */
+.container-sub-area > .container > .dots{
+    position:absolute;
+    width:100%;
+    bottom:10px;
+    text-align: center;
+}
+.container-sub-area > .container > .dots > .dot{
+    cursor:pointer;
+    height:4px;
+    width:30px;
+    margin:0 2px;
+    background-color:#717171;
+    display:inline-block;
+    transition:background-color 0.6s ease;
+}
+.container-sub-area > .container > .dots > .dot.active,
+.container-sub-area > .container > .dots > .dot:hover{
+    background-color:#ddd;
+}
