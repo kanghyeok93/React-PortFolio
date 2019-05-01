@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import profile from './image/profile.png';
+import profile from '../image/profile.png';
 import './about.css';
 
 class About extends Component {
@@ -23,22 +23,22 @@ class About extends Component {
                     <ul>
                         <li>
                             <div className="info">
-                                <i class="far fa-calendar-alt"></i>3st October, 1993
+                                <i class="far fa-calendar-alt"/>3st October, 1993
                             </div>
                         </li>
                         <li>
                             <div className="info">
-                                <i class="fas fa-phone"></i>+82 10-4909-5886
+                                <i class="fas fa-phone"/>+82 10-4909-5886
                             </div>
                         </li>
                         <li>
                             <div className="info">
-                                <i class="fa fa-envelope"></i>kanghyeok93@naver.com
+                                <i class="fa fa-envelope"/>kanghyeok93@naver.com
                             </div>
                         </li>
                         <li>
                             <div className="info">
-                                <i class="fas fa-home"></i>70, Sosa-ro 78beon-gil, Bucheon-si, Gyeonggi-do, Republic of Korea
+                                <i class="fas fa-home"/>70, Sosa-ro 78beon-gil, Bucheon-si, Gyeonggi-do, Republic of Korea
                             </div>
                         </li>
                     </ul>
@@ -58,19 +58,19 @@ class About extends Component {
                 </div>
                 <div className="sns">
                     <a href="https://www.facebook.com/rkdgur777" target="_blank">
-                        <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"/>
                     </a>
                     <a>
-                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"/>
                     </a>
                     <a href="https://github.com/kanghyeok93" target="_blank">
-                        <i className="fab fa-github"></i>
+                        <i className="fab fa-github"/>
                     </a>
                     <a>
-                        <i className="fab fa-google-plus-g"></i>
+                        <i className="fab fa-google-plus-g"/>
                     </a>
                     <a>
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"/>
                     </a>
                 </div>
             </section>

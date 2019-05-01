@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import './imageSlider.css';
-import one from './image/img_slide_1.jpg';
-import two from './image/img_slide_2.jpg';
-import three from './image/img_slide_3.jpg';
-import four from './image/img_slide_4.jpg';
+import one from '../image/img_slide_1.jpg';
+import two from '../image/img_slide_2.jpg';
+import three from '../image/img_slide_3.jpg';
+import four from '../image/img_slide_4.jpg';
 
 class ImageSlider extends Component {
+
     imageNext = React.createRef();
     imagePrev = React.createRef();
     firstDot = React.createRef();
@@ -81,10 +82,10 @@ class ImageSlider extends Component {
                         <a id="imageNext" className="image-next" ref={this.imageNext}>&#10095;</a>
 
                         <div className="dots">
-                            <span id="firstDot" className="dot" ref={this.firstDot}></span>
-                            <span id="secondDot" className="dot" ref={this.secondDot}></span>
-                            <span id="thirdDot" className="dot" ref={this.thirdDot}></span>
-                            <span id="fourthDot" className="dot" ref={this.fourthDot}></span>
+                            <span id="firstDot" className="dot" ref={this.firstDot}/>
+                            <span id="secondDot" className="dot" ref={this.secondDot}/>
+                            <span id="thirdDot" className="dot" ref={this.thirdDot}/>
+                            <span id="fourthDot" className="dot" ref={this.fourthDot}/>
                         </div>
                     </div>
                 </div>

@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './skills.css';
-import html5 from './image/HTML5.png';
-import css3 from './image/CSS3.png';
-import javascript from './image/JAVASCRIPT.png';
-import jquery from './image/JQUERY.png';
-import nodejs from './image/NODEJS.png';
-import react from './image/REACT.png';
-import mysql from './image/MYSQL.png';
-import mongodb from './image/MONGODB.png';
+import html5 from '../image/HTML5.png';
+import css3 from '../image/CSS3.png';
+import javascript from '../image/JAVASCRIPT.png';
+import jquery from '../image/JQUERY.png';
+import nodejs from '../image/NODEJS.png';
+import react from '../image/REACT.png';
+import mysql from '../image/MYSQL.png';
+import mongodb from '../image/MONGODB.png';
 
 class Skills extends Component {
     render() {

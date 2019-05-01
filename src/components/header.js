@@ -49,7 +49,7 @@ class Header extends Component {
                 <header id="header" className="header-area" ref = {this.header}>
                     <nav id="nav" className="nav-area">
                         <a id="navLogo" className="nav-logo">skh</a>
-                        <a id="navToggle" className="nav-toggle" ref = {this.toggle}><i id="toggle_i" className="fa fa-bars" ref = {this.i}></i></a>
+                        <a id="navToggle" className="nav-toggle" ref = {this.toggle}><i id="toggle_i" className="fa fa-bars" ref = {this.i}/></a>
                         <div id="navMenu" className="nav-menu" ref = {this.menu}>
                             <div className="nav-item"><a id="navHome" className="nav-link">home</a></div>
                             <div className="nav-item"><a id="navAbout" className="nav-link">about</a></div>
