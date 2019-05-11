@@ -4,7 +4,6 @@ import portfolio_pic1 from '../image/nodejsmongodb.png';
 import portfolio_pic2 from '../image/react_pj.png';
 import portfolio_pic3 from '../image/comming_soon.jpg';
 import pdf1 from '../pdf/몽고DB게시판.pdf';
-import pdf2 from '../pdf/react.pdf';
 
 class Project extends Component {
     viewPortfolio = (e) =>{
@@ -58,7 +57,8 @@ class Project extends Component {
                             MongoDB + Node.js + Passport
                         </div>
                         <div className="text">
-                            PDF : <a href={pdf1} className="pdf-text" target="_blank">첨부파일 ◀ 클릭</a>
+                            PDF : <a href={pdf1} className="pdf-text" target="_blank">첨부파일 ◀ 클릭</a><br/>
+                                GIT : <a href="https://github.com/kanghyeok93/MongoDB-Board" className="pdf-text" target="_blank">주소 ◀ 클릭</a>
                         </div>
                     </div>
                     <div className="filter-item">
@@ -67,13 +67,14 @@ class Project extends Component {
                             <img src={portfolio_pic2}/>
                         </div>
                         <div className="main">
-                            React 회원등록
+                            React - SPA
                         </div>
                         <div className="sub">
-                            React
+                            React + Redux
                         </div>
                         <div className="text">
-                            PDF : <a href={pdf2} className="pdf-text" target="_blank">첨부파일 ◀ 클릭</a>
+                            Site : <a href="https://iu-spa.firebaseapp.com" className="pdf-text" target="_blank">IU - SPA ◀ 클릭</a><br/>
+                                GIT : <a href="https://github.com/kanghyeok93/React-SPA" className="pdf-text" target="_blank">주소 ◀ 클릭</a>
                         </div>
                     </div>
                     <div className="filter-item">

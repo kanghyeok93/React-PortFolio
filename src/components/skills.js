@@ -34,7 +34,7 @@ class Skills extends Component {
                 <div className="skills-images">
                     <div>FrameWork</div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_5})`}}><div className="visit">intermediate</div></div>
-                    <div className="skills-image" style={{backgroundImage : `url(${img_url_6})`}}><div className="visit">basic</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_6})`}}><div className="visit">intermediate</div></div>
                 </div>
                 <div className="skills-images">
                     <div>Database</div>
