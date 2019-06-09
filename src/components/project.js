@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './project.css'
 import portfolio_pic1 from '../image/nodejsmongodb.png';
 import portfolio_pic2 from '../image/react_pj.png';
-import portfolio_pic3 from '../image/comming_soon.jpg';
+import portfolio_pic3 from '../image/mern.png';
 import pdf1 from '../pdf/몽고DB게시판.pdf';
 
 class Project extends Component {
@@ -83,13 +83,15 @@ class Project extends Component {
                             <img src={portfolio_pic3}/>
                         </div>
                         <div className="main">
-                            준비중
+                            MERN - Stack
                         </div>
                         <div className="sub">
-                            준비중
+                            MongoDB, Express, React, NodeJS
                         </div>
                         <div className="text">
-                            준비중 입니다.
+                            Site : <a href="https://skh-mern.herokuapp.com/" className="pdf-text" target="_blank">MERN - Stack ◀ 클릭</a><br/>
+                                                <div className="text_span">※ 사이트가 조금 늦게 실행 될 수 있습니다.</div>
+                            GIT : <a href="https://github.com/kanghyeok93/MERN-Stack" className="pdf-text" target="_blank">주소 ◀ 클릭</a>
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,11 @@ import nodejs from '../image/NODEJS.png';
 import react from '../image/REACT.png';
 import mysql from '../image/MYSQL.png';
 import mongodb from '../image/MONGODB.png';
+import sass from '../image/sass.png';
+import redux from '../image/redux.png';
+import mongoose from '../image/mongoose.png';
+import axios from '../image/axios.png';
+import git from '../image/git.png';
 
 class Skills extends Component {
     render() {
@@ -19,6 +24,11 @@ class Skills extends Component {
         const img_url_6 = react;
         const img_url_7 = mysql;
         const img_url_8 = mongodb;
+        const img_url_9 = sass;
+        const img_url_10 = redux;
+        const img_url_11 = mongoose;
+        const img_url_12 = axios;
+        const img_url_13 = git;
         return (
             <div id="skills" className="skills-area">
                 <div className="skills-title">
@@ -28,6 +38,7 @@ class Skills extends Component {
                     <div>Web - Language</div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_1})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_2})`}}><div className="visit">intermediate</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_9})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_3})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_4})`}}><div className="visit">intermediate</div></div>
                 </div>
@@ -40,6 +51,13 @@ class Skills extends Component {
                     <div>Database</div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_7})`}}><div className="visit">basic</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_8})`}}><div className="visit">intermediate</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_11})`}}><div className="visit">intermediate</div></div>
+                </div>
+                <div className="skills-images">
+                    <div>ETC</div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_13})`}}><div className="visit">intermediate</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_10})`}}><div className="visit">intermediate</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_12})`}}><div className="visit">basic</div></div>
                 </div>
             </div>
         );
