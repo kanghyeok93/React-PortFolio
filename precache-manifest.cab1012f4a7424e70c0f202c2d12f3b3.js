@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "20dea7034483469a5a5903fab883216a",
-    "url": "/React-PortFolio/static/media/img_slide_4.20dea703.jpg"
+    "revision": "baaa3c61e312d1ab44829fc753011249",
+    "url": "/React-PortFolio/static/media/profile.baaa3c61.png"
   },
   {
-    "revision": "1aa66516dd34a3fd0d72",
-    "url": "/React-PortFolio/static/css/main.348b467c.chunk.css"
+    "revision": "de8d5717db266d20b593",
+    "url": "/React-PortFolio/static/css/main.ce691897.chunk.css"
   },
   {
     "revision": "0c0908d09d4a028e85cd",
     "url": "/React-PortFolio/static/js/runtime~main.ed19cdb1.js"
   },
   {
-    "revision": "962c1fbdd7780be90cf2",
-    "url": "/React-PortFolio/static/js/2.09a482eb.chunk.js"
+    "revision": "5547622b89c9d1519902",
+    "url": "/React-PortFolio/static/js/2.bd292011.chunk.js"
   },
   {
     "revision": "dd89249b440f1df2a7422192cd75b6e7",
@@ -28,12 +28,20 @@ self.__precacheManifest = [
     "url": "/React-PortFolio/static/media/img_slide_3.9f50db5b.jpg"
   },
   {
-    "revision": "1aa66516dd34a3fd0d72",
-    "url": "/React-PortFolio/static/js/main.89300cb9.chunk.js"
+    "revision": "20dea7034483469a5a5903fab883216a",
+    "url": "/React-PortFolio/static/media/img_slide_4.20dea703.jpg"
   },
   {
-    "revision": "baaa3c61e312d1ab44829fc753011249",
-    "url": "/React-PortFolio/static/media/profile.baaa3c61.png"
+    "revision": "de8d5717db266d20b593",
+    "url": "/React-PortFolio/static/js/main.a6cd7e88.chunk.js"
+  },
+  {
+    "revision": "3bee36ecf9f573adfc3086636260d120",
+    "url": "/React-PortFolio/static/media/redux.3bee36ec.png"
+  },
+  {
+    "revision": "b9e79b6dad45cbee1b80ea0a43a29a1a",
+    "url": "/React-PortFolio/static/media/mongoose.b9e79b6d.png"
   },
   {
     "revision": "3f7c60c5f055146cde3b5ace5558e767",
@@ -44,15 +52,15 @@ self.__precacheManifest = [
     "url": "/React-PortFolio/static/media/react_pj.b78623fe.png"
   },
   {
-    "revision": "5935ac4ff39bf90183f31cdb0ab59f52",
-    "url": "/React-PortFolio/static/media/comming_soon.5935ac4f.jpg"
+    "revision": "d06954f1c98d8d7403fb822c00157536",
+    "url": "/React-PortFolio/static/media/mern.d06954f1.png"
   },
   {
     "revision": "930e98b050cf2243f4c56826baedd326",
     "url": "/React-PortFolio/static/media/몽고DB게시판.930e98b0.pdf"
   },
   {
-    "revision": "e984d4d9efb22ec186f36b884dac3dec",
+    "revision": "ee4b0ed4d6d0c7890eb1f757dc3972b8",
     "url": "/React-PortFolio/index.html"
   }
 ];
