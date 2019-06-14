@@ -90,7 +90,7 @@ class Project extends Component {
                         </div>
                         <div className="text">
                             Site : <a href="https://skh-mern.herokuapp.com/" className="pdf-text" target="_blank">MERN - Stack ◀ 클릭</a><br/>
-                                                <div className="text_span">※ 사이트가 조금 늦게 실행 될 수 있습니다.</div>
+                                                <div className="text_span">※ 사이트가 조금 늦게 실행 될 수 있습니다. (크롬 권장)</div>
                             GIT : <a href="https://github.com/kanghyeok93/MERN-Stack" className="pdf-text" target="_blank">주소 ◀ 클릭</a>
                         </div>
                     </div>
