@@ -73,7 +73,7 @@ class Project extends Component {
                             React + Redux
                         </div>
                         <div className="text">
-                            Site : <a href="https://iu-spa.firebaseapp.com" className="pdf-text" target="_blank">IU - SPA ◀ 클릭</a><br/>
+                            Site : <a href="https://iu-spa.firebaseapp.com" className="pdf-text" target="_blank">IU - SPA ◀ 클릭 (크롬 권장)</a><br/>
                                 GIT : <a href="https://github.com/kanghyeok93/React-SPA" className="pdf-text" target="_blank">주소 ◀ 클릭</a>
                         </div>
                     </div>
