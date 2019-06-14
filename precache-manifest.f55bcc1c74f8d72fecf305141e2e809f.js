@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/React-PortFolio/static/media/profile.baaa3c61.png"
   },
   {
-    "revision": "cae93343783731a0100d",
+    "revision": "bc89482fc75bd997dbae",
     "url": "/React-PortFolio/static/css/main.ce691897.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/React-PortFolio/static/media/img_slide_4.20dea703.jpg"
   },
   {
-    "revision": "cae93343783731a0100d",
-    "url": "/React-PortFolio/static/js/main.49ab5041.chunk.js"
+    "revision": "bc89482fc75bd997dbae",
+    "url": "/React-PortFolio/static/js/main.680e0f71.chunk.js"
   },
   {
     "revision": "3bee36ecf9f573adfc3086636260d120",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/React-PortFolio/static/media/몽고DB게시판.930e98b0.pdf"
   },
   {
-    "revision": "05e0030deb9e0e67a46ea03a4ccd5fda",
+    "revision": "c035e714af2ca6ee82e9b2f2f891851d",
     "url": "/React-PortFolio/index.html"
   }
 ];
