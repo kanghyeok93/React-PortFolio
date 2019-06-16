@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import Header from './components/header';
-import ImageSlider from "./components/imageSlider";
+import Title from './components/title';
 import About from "./components/about";
 import Skills from "./components/skills";
 import Project from "./components/project";
 import Footer from "./components/footer";
+
 class PortFolio extends Component {
 
     componentDidMount() {
@@ -37,7 +38,7 @@ class PortFolio extends Component {
         return (
             <div>
                 <Header/>
-                <ImageSlider/>
+                <Title/>
                 <About/>
                 <Skills/>
                 <Project/>

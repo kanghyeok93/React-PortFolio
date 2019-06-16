@@ -15,6 +15,7 @@ import axios from '../image/axios.png';
 import git from '../image/git.png';
 import rb from '../image/rb.png';
 import express from '../image/express.png';
+import os from '../image/os.png';
 
 class Skills extends Component {
     render() {
@@ -33,6 +34,7 @@ class Skills extends Component {
         const img_url_13 = git;
         const img_url_14 = rb;
         const img_url_15 = express;
+        const img_url_16 = os;
         return (
             <div id="skills" className="skills-area">
                 <div className="skills-title">
@@ -47,7 +49,7 @@ class Skills extends Component {
                 </div>
                 <div className="skills-images">
                     <div>FrameWork</div>
-                    <div className="skills-image" style={{backgroundImage : `url(${img_url_14})`}}><div className="visit">basic</div></div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_14})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_4})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_5})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_15})`}}><div className="visit">intermediate</div></div>
@@ -58,6 +60,10 @@ class Skills extends Component {
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_7})`}}><div className="visit">basic</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_8})`}}><div className="visit">intermediate</div></div>
                     <div className="skills-image" style={{backgroundImage : `url(${img_url_11})`}}><div className="visit">intermediate</div></div>
+                </div>
+                <div className="skills-images">
+                    <div>Operating System</div>
+                    <div className="skills-image" style={{backgroundImage : `url(${img_url_16})`}}><div className="visit">Expert</div></div>
                 </div>
                 <div className="skills-images">
                     <div>ETC</div>

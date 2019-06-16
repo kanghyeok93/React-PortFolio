@@ -16,9 +16,11 @@ class About extends Component {
                 </div>
                 <div className="text">
                     <div className="intro">
-                        <div>안녕하십니까.</div>
+                        <div>안녕하십니까 :)</div>
                         <div>프론트엔드 개발자 서강혁입니다.</div>
-                        궁금하신 점이 있으시다면 언제든지 편하게 연락주세요.
+                        <div>대학교 졸업 후 프론트엔드 분야에 관심이 생겨</div>
+                        <div>전문학원을 다니며 수료를 하고,</div>
+                        <div>현재까지 웹 개발에 전념하고 있습니다.</div>
                     </div>
                     <ul>
                         <li>
