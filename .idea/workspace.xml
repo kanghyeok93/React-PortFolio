@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f104f665-6cc2-45a6-8a5a-465687e79cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/title.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PortFolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PortFolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/imageSlider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/imageSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,21 +124,11 @@
               <item name="skh_portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="skh_portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="skh_portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skh_portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skh_portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skh_portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,12 +238,14 @@
       <workItem from="1560500730598" duration="1078000" />
       <workItem from="1560607816675" duration="5413000" />
       <workItem from="1560627965293" duration="191000" />
-      <workItem from="1560670399480" duration="21571000" />
+      <workItem from="1560670399480" duration="21726000" />
+      <workItem from="1560710600906" duration="327000" />
+      <workItem from="1560711390416" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214304000" />
+    <option name="totallyTimeSpent" value="214794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,7 +259,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -291,7 +273,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3460993" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3460993" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -347,13 +329,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/haha.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/imageSlider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1552">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/imageSlider.css" />
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
     <entry file="file://$PROJECT_DIR$/src/index.css">
@@ -426,13 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/imageSlider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/imageSlider.js" />
     <entry file="file://$PROJECT_DIR$/src/components/project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
